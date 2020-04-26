@@ -67,7 +67,7 @@ export default class updateDelete extends React.Component{
                <form action="#" onSubmit={this.handleSubmit}>
                <div className="form-group">
                        <label for="no">Id:</label>
-                       <input type='text'id="no" className="form-control form-control-lg" placeholder="Enter Name" value={this.state.id} onChange={this.handleChangeId}/>
+                       <input type='text'id="no" className="form-control form-control-lg" placeholder="Enter ID" value={this.state.id} onChange={this.handleChangeId}/>
                    </div>
                    <div className="form-group">
                        <label for="name">Name:</label>
@@ -89,7 +89,7 @@ export default class updateDelete extends React.Component{
                    <form action="#" onSubmit={this.handleDelete}>
                <div className="form-group">
                        <label for="No">Id:</label>
-                       <input type='text'id="No" className="form-control form-control-lg" placeholder="Enter Name" value={this.state.record_id} onChange={this.handleChangeRecord_Id}/>
+                       <input type='text'id="No" className="form-control form-control-lg" placeholder="Enter ID" value={this.state.record_id} onChange={this.handleChangeRecord_Id}/>
                    </div>
                    <div className="form-group">
                        <input type='submit' className="form-control form-control-lg" value="Delete" />
